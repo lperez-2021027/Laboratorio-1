@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.text {
+    font-family: 'Noto Sans KR', sans-serif;
+    color: #444;
+}
+
+.main-text {
+    font-family: 'Roboto Slab', serif;
+    color: #503459;
+    text-shadow: 3px 3px 3px #cc8fc7;
+}
+
+.link-text {
+    text-decoration: none;
+    color: #503459;
+}
+
+.foot-color {
+    background-color: #964995;
+}
+
+@media (max-width: 768px) {
+    .masterhead {
+        min-height: 30vh !important;
+    }
+    .slide img {
+        min-height: 30vh !important;
+    }
+}
+
+.color {
+    background-color: #fff0ff;
+}
+
+.back-txt {
+    background-color: #dcb2dc;
+    border-radius: 25px;
+}
+
+.back-img {
+    background-image: url('https://naukas.com/fx/uploads/2015/03/Imagen_1.jpg');
+    /* background-image: url('https://www.nasa.gov/sites/default/files/styles/full_width_feature/public/thumbnails/image/main_image_star-forming_region_carina_nircam_final-5mb.jpg'); */
+    /* background-image: url('https://stsci-opo.org/STScI-01GA6KNV1S3TP2JBPCDT8G826T.png'); */
+    background-size: cover;
+    min-height: 60vh;
+    position: relative;
+}
+
+.slide img{
+    min-height: 75vh;
+}
+
+.slide-desc {
+    text-decoration: none;
+    color: white;
+    text-shadow: 4px 4px 4px  #000000;
+}
+
+.img-thumbnail {
+    border-radius: 500px;
+}

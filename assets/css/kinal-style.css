@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Mitr:wght@500&family=Monoton&family=Nunito+Sans:wght@300&display=swap');
+@import url('https://fonts.cdnfonts.com/css/gloss-and-bloom');
+@import url('https://fonts.cdnfonts.com/css/rubik');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.btn-primary {
+    background-color: #1c2470 !important;
+}
+
+.navbar {
+    background-color: #1c2470 !important;
+}
+
+.navbar-toggler-icon {
+    background-color:  #f46a24 !important;
+    border-radius: 2px;
+}
+
+.texts {
+    font-family: 'Rubik', sans-serif;
+    color: #1c2470;
+}
+
+.nav-link {
+    font-family: 'Lora', serif;
+    color: white;
+}
+
+.sub-texts {
+    font-family: 'Mitr', sans-serif;
+    font-weight: bold;;
+}
+
+.trabajo-bien {
+    font-family: 'Gloss And Bloom', sans-serif;
+    font-size: 60px;
+    color: #1c2470;
+}
+
+.carousel-inner {
+    max-height: 45rem;
+}

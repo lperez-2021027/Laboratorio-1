@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="shourtcut icon"
+        href="https://images.vexels.com/media/users/3/136638/isolated/lists/8794edc043ac61418c90043b1ed63f2b-purple-flower-icon.png">
+    <!-- Algunos otros iconos -->
+    <!-- https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco,dpr_1/v1421201905/mrrmklcocbu3cmcfhjov.png -->
+    <!-- https://lirp.cdn-website.com/688d2114/dms3rep/multi/opt/purple-1920w.png -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Lo que me gusta</title>
+</head>
+
+
+
+
+
+
+<body class="color">
+    <!-- ========================== -->
+    <!-- ENCABEZADO -->
+    <!-- ========================== -->
+    <header>
+        <h1 id="#top" class="text-center p-2 main-text">Hola, bienvenido</h1>
+    </header>
+    <!-- ========================== -->
+    <!-- CUERPO -->
+    <!-- ========================== -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="https://youtu.be/wL2ylkbNVqU" target="_blank">
+                <img src="https://images.vexels.com/media/users/3/136638/isolated/lists/8794edc043ac61418c90043b1ed63f2b-purple-flower-icon.png"
+                    alt="purple-bottom" width="30" height="28">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#ini">Lo que me gusta</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="biografia.html">Autobiografía</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="kinal.html">Kinal</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- ========================== -->
+    <!-- CONTENIDO PRINCIPAL -->
+    <!-- ========================== -->
+    <main>
+        <article class="container-xl back-img">
+            <nav class="row">
+                <nav class="container-fluid">
+                    <nav class="row">
+                        <nav class="col text-center">
+                            <h2 class="main-text m-3 p-2 back-txt">Mi nombre es Luis Carlos, es un gusto que estes
+                                aquí.</h2>
+                        </nav>
+                    </nav>
+
+                    <!-- ========================== -->
+                    <!-- SLIDER -->
+                    <!-- ========================== -->
+                    <nav class="row p-2">
+                        <nav class="col">
+                            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                                        aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                                        aria-label="Slide 3"></button>
+                                </div>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active" data-bs-interval="13000">
+                                        <!-- <img src="https://i.ytimg.com/vi/u0ZTcAOP9kk/maxresdefault.jpg"
+                                                class="d-block w-100 heigh" alt="..."> -->
+                                        <a href="#ini">
+                                            <img src="https://preview.redd.it/4ay29qgly3q71.png?width=640&crop=smart&auto=webp&s=8d030ff2d338927cfb6eddd2da6af816f82bcc3b"
+                                                class="d-block w-100 heigh" alt="...">
+                                        </a>
+                                        <div class="carousel-caption d-none d-md-block">
+                                            <h5 class="fs-4">Lo que me gusta</h5>
+                                            <a href="#ini" class="slide-desc fs-5">En esta sección encontrarás
+                                                aquello por lo que tengo un gran interes.</a>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item" data-bs-interval="5000">
+                                        <!-- <img src="https://i.ytimg.com/vi/wL2ylkbNVqU/maxresdefault.jpg"
+                                                class="d-block w-100 heigh" alt="..."> -->
+                                        <a href="biografia.html">
+                                            <img src="https://steamuserimages-a.akamaihd.net/ugc/1672484725041766833/1E37262B4407D9E458A1D625BA85E9FC174C48F2/?imw=637&imh=358&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true"
+                                                class="d-block w-100 heigh" alt="...">
+                                        </a>
+                                        <div class="carousel-caption d-none d-md-block">
+                                            <h5 class="fs-4">Autobiografía</h5>
+                                            <a href="biografia.html" class="slide-desc fs-5">En esta sección
+                                                encontrarás información hacerca de mi.</a>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item" data-bs-interval="5000">
+                                        <!-- <img src="https://lastfm.freetls.fastly.net/i/u/ar0/9db76fa6a9bd11809d5862b8eae8f211"
+                                                class="d-block w-100 heigh" alt="..."> -->
+                                        <a href="kinal.html">
+                                            <img src="https://static.wixstatic.com/media/128120_461471eeba0246faae72fb3f49a57fc8~mv2.jpg/v1/fill/w_1670,h_558,al_c,q_85,enc_auto/128120_461471eeba0246faae72fb3f49a57fc8~mv2.jpg"
+                                                class="d-block w-100 heigh" alt="...">
+                                        </a>
+                                        <div class="carousel-caption d-none d-md-block">
+                                            <h5 class="fs-4">Kinal</h5>
+                                            <a href="kinal.html" class="slide-desc fs-5">En esta sección encontrarás
+                                                un rediseño de la página web de kinal.</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button"
+                                    data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button"
+                                    data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                        </nav>
+                        <hr>
+                    </nav>
+                </nav>
+            </nav>
+        </article>
+
+        <!-- ========================== -->
+        <!-- COSAS QUE ME GUSTAN -->
+        <!-- ========================== -->
+        <article class="container-xl">
+            <br>
+            <nav class="row pb-3 pt-3">
+                <nav class="col text-center">
+                    <h2 id="ini" class="main-text m-3 p-2 back-txt">A continuación algunas de aquellas cosas que son
+                        de mi agrado y gusto de ellas.</h2>
+                </nav>
+            </nav>
+
+            <!-- ========================== -->
+            <!-- MUSICA -->
+            <!-- ========================== -->
+            <nav class="row">
+                <nav class="col-lg col-md m-3 text-center">
+                    <h3 id="musica" class="main-text back-txt p-2">
+                        Música
+                    </h3>
+                    <br>
+                    <nav class="back-txt p-2">
+                        <p class="text p-2 text-break">
+                            La considero parte fundamental en mi vida, esencial en mi día a día. Me agrada la
+                            sensación y el sentimiento que persibo entre las distintas
+                            canciones, los sonidos, las voces y los instrumentos sonando en perfecta armonía son
+                            increíbles y dignos de mi admiración.
+                        </p>
+                        <p class="text p-2 text-break">
+                            Mi canción favorita es
+                            <a href="https://youtu.be/dTh4cp_ypu4" class="link-text" target="_blank">'Purple Hearts
+                                In Hear Eyes' </a>
+                            del albúm
+                            <a href="https://youtu.be/UNqdB15zk00" class="link-text" target="_blank">'Skitzofrenia
+                                Simulation'</a>
+                            el cual pertenece a mi artista musical favorito:
+                            <a href="https://www.youtube.com/channel/UCnW2hq-0-3Urmz12oK2z3mQ" class="link-text"
+                                target="_blank">'Sewerslvt'</a>
+                        </p>
+                        <p class="text p-2 text-break">
+                            Escucho música con gran regularidad durante el día, así como al hacer tareas o ejercer
+                            deberes cotidianos.
+                        </p>
+                    </nav>
+                </nav>
+                <nav class="col-lg col-md m-3">
+                    <div class="position-relative">
+                        <div class="d-flex justify-content-center aling-items-center ">
+                            <a href="https://youtu.be/dTh4cp_ypu4" target="_blank">
+                                <img class="rounded mx-auto d-block img-fluid"
+                                    src="https://e.snmc.io/i/600/s/4ab1e8369c214d0a6732d21c2f081830/9070177/sewerslvt-skitzofrenia-simulation-Cover-Art.jpg"
+                                    alt="" height="350" width="350">
+                            </a>
+                        </div>
+                    </div>
+                </nav>
+            </nav>
+
+            <nav class="container-fluid" style="color: #964995;">
+                <hr>
+            </nav>
+
+            <!-- ========================== -->
+            <!-- DIBUJO -->
+            <!-- ========================== -->
+            <nav class="row">
+                <nav class="col-lg col-md m-3">
+                    <div class="position-relative">
+                        <div class="d-flex justify-content-center aling-items-center ">
+                            <img class="rounded mx-auto d-block img-fluid"
+                                src="https://i.pinimg.com/564x/e3/60/bc/e360bcd0d0f1b1f1aa1c1827d0ad90ac.jpg" alt=""
+                                height="350" width="350">
+                        </div>
+                    </div>
+                </nav>
+                <nav class="col-lg col-md m-3 text-center">
+                    <h3 id="dibujo" class="main-text back-txt p-2">
+                        Dibujo
+                    </h3>
+                    <br>
+                    <nav class="back-txt p-2">
+                        <p class="text p-2 text-break">
+                            Me agrada dibujar, lo hago a diario, en las tardes. Mi técnica de dibujo preferida es el
+                            entintado con estilógrafo, sin embargo, dibujo más a lápiz debido a que práctico para
+                            mejorar mis trazos y además el entintado requiere gran cantidad de tiempo por lo que
+                            debo organizar bien mi tiempo para lograr utilizar dicha técnica.
+                        </p>
+                        <p class="text p-2 text-break">
+                            No poseo un dibujo favorito, pero me gustan los
+                            <a href="https://pin.it/513eXA0" class="link-text" target="_blank">gatos</a>
+                            hechos a lápiz
+                        </p>
+                    </nav>
+                </nav>
+            </nav>
+
+            <nav class="container-fluid" style="color: #964995;">
+                <hr>
+            </nav>
+
+            <!-- ========================== -->
+            <!-- LIBROS -->
+            <!-- ========================== -->
+
+            <nav class="row">
+                <nav class="col-lg col-md m-3 text-center">
+                    <h3 id="libros" class="main-text back-txt p-2">
+                        Libros
+                    </h3>
+                    <br>
+                    <nav class="back-txt p-2">
+                        <p class="text p-2 text-break">
+                            Son capaces de transportar a otros mundos. Es simplemente genial y muy grato el degustar
+                            de un libro como pasatiempo. Cada uno es diferente, la narrativa cambia, por supuesto
+                            que la historia también, pero enriquecen bastante, tanto en vocabulario como en
+                            conocimiento.
+                        </p>
+                        <p class="text p-2 text-break">
+                            Actualmente me encuentro leyendo
+                            <a href="https://www.culturagenial.com/es/novela-el-lobo-estepario-de-hermann-hesse/"
+                                class="link-text" target="_blank">'El lobo Estepario'</a>
+                            escrito por
+                            <a href="https://www.biografiasyvidas.com/biografia/h/hesse.htm" class="link-text"
+                                target="_blank">Hermann Hesse,</a>
+                            por el
+                            momento lo considero uno de mis favoritos, es simplemente agradable para mí.
+                        </p>
+                    </nav>
+                </nav>
+                <nav class="col-lg col-md m-3">
+                    <div class="position-relative">
+                        <div class="d-flex justify-content-center aling-items-center ">
+                            <img class="rounded mx-auto d-block img-fluid"
+                                src="https://i.blogs.es/aa76de/libro/450_1000.jpg" alt="" height="350" width="350">
+                        </div>
+                    </div>
+                </nav>
+            </nav>
+
+            <nav class="container-fluid" style="color: #964995;">
+                <hr>
+            </nav>
+
+            <!-- ========================== -->
+            <!-- EVANGELION -->
+            <!-- ========================== -->
+
+            <nav class="row">
+                <nav class="col-lg col-md m-3">
+                    <div class="position-relative">
+                        <div class="d-flex justify-content-center aling-items-center ">
+                            <img class="rounded mx-auto d-block img-fluid"
+                                src="https://i.pinimg.com/564x/8d/e8/ee/8de8eee444eec2d19350ffb9cdb44e3c.jpg" alt=""
+                                height="350" width="350">
+                        </div>
+                    </div>
+                </nav>
+                <nav class="col-lg col-md m-3 text-center">
+                    <h3 id="evangelion" class="main-text back-txt p-2">
+                        Neon Genesis Evangelion
+                    </h3>
+                    <br>
+                    <nav class="back-txt p-2">
+                        <p class="text p-2 text-break">
+                            Es mi serie animada favorita. Todo el trasfondo se encuentra muy bien elaborado, me
+                            gustan los personajes y en general todo. Pero debo especificar que, la serie cuenta con
+                            una serie de películas, véase como una continuación de la serie original, y sinceramente
+                            me gustan un poco más la serie de películas, son cuatro en total y mi favorita es la
+                            última: Evangelion 3.0 + 1.0 Thrice Upon a Time
+                        </p>
+                        <p class="text p-2 text-break">
+                            No es regular que vea las películas o la serie, pero en vacaciones lo veo de nuevo.
+                        </p>
+                    </nav>
+                </nav>
+            </nav>
+
+            <nav class="container-fluid" style="color: #964995;">
+                <hr>
+            </nav>
+
+            <!-- ========================== -->
+            <!-- MINECRAFT -->
+            <!-- ========================== -->
+
+            <nav class="row">
+                <nav class="col-lg col-md m-3 text-center">
+                    <h3 id="minecraft" class="main-text back-txt p-2">
+                        Minecraft
+                    </h3>
+                    <br>
+                    <nav class="back-txt p-2">
+                        <p class="text p-2 text-break">
+                            Es mi juego favorito desde que era un niño. Me gusta su simplicidad y sus mecánicas de
+                            aventura y supervivencia. Juego en línea también y puedo decir que soy algo bueno en el
+                            modo de combate del juego. Pero explorar, construir y simplemente jugar me encanta.
+                        </p>
+                        <p class="text p-2 text-break">
+                            A veces juego los fines de semana con algunos amigos, otras veces en solitario.
+                        </p>
+                    </nav>
+                </nav>
+                <nav class="col-lg col-md m-3">
+                    <div class="position-relative">
+                        <div class="d-flex justify-content-center aling-items-center ">
+                            <!-- <img class="rounded mx-auto d-block img-fluid"
+                                    src="https://static.wikia.nocookie.net/minecraft_gamepedia/images/e/e6/Sleeping_Baby_Fox.png/revision/latest?cb=20190218183612"
+                                    alt="" height="350" width="350"> -->
+                            <img class="rounded mx-auto d-block img-fluid"
+                                src="https://i.pinimg.com/564x/15/37/26/153726c324269b476e0e174e77df27c3.jpg" alt=""
+                                height="350" width="350">
+                        </div>
+                    </div>
+                </nav>
+            </nav>
+        </article>
+        <br class="m-3">
+    </main>
+    <!-- ========================== -->
+    <!-- PIE DE PAGINA -->
+    <!-- ========================== -->
+    <footer>
+        <div class="container-fluid">
+            <div class="row foot-color p-3">
+
+                <div class="col-md-4">
+                    <h5 class="link-text  main-text back-txt p-2 px-3">
+                        <a href="#top" class="link-text">
+                            Lo que me gusta
+                        </a>
+                    </h5>
+                    <hr style="color: #dbb6ee">
+                    <ul class="back-txt pt-2 pb-2">
+                        <li>
+                            <a href="#musica" class="link-text">Música</a>
+                        </li>
+                        <li>
+                            <a href="#dibujo" class="link-text">Dibujo</a>
+                        </li>
+                        <li>
+                            <a href="#libros" class="link-text">libros</a>
+                        </li>
+                        <li>
+                            <a href="#evangelion" class="link-text">Neon Genesis Evangelion</a>
+                        </li>
+                        <li>
+                            <a href="#minecraft" class="link-text">Minecraft</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-md-4">
+                    <h5 class="link-text main-text back-txt p-2 px-3">
+                        <a href="biografia.html" class="link-text">
+                            Autobiografía
+                        </a>
+                    </h5>
+                    <hr style="color: #dbb6ee">
+                    <ul class="back-txt pt-2 pb-2">
+                        <li>
+                            <a href="biografia.html#name" class="link-text">Este soy yo</a>
+                        </li>
+                        <li>
+                            <a href="biografia.html#aboutme" class="link-text">Acerca de mí...</a>
+                        </li>
+                        <li>
+                            <a href="biografia.html#expected" class="link-text">Lo que espero aprender este año</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-md-4">
+                    <h5 class="link-text main-text back-txt p-2 px-3">
+                        <a href="kinal.html" class="link-text">
+                            Kinal
+                        </a>
+                    </h5>
+                    <hr style="color: #dbb6ee">
+                    <ul class="back-txt pt-2 pb-2">
+                        <li>
+                            <a href="kinal.html" class="link-text">Página principal</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col text-center pt-2" style="background-color: #1a0d19; color: #fff0ff;">
+                    <p>Todos los derechos reservados 2023&reg</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
